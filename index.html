@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <!--Navbar-->
 
     <div class="container">
@@ -24,7 +25,15 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class=" nav-link" href="#product ">Product</a>
+                        <div class="dropdown">
+                            <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                                Product   
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#mobile">Mobile</a>
+                                <a class="dropdown-item" href="#laptop">Laptop</a>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link " href="#aboutus ">About Us</a>
@@ -58,9 +67,9 @@
                                 <p class="pt-3">
                                     Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an
                                 </p>
-                                <button class="btn mt-2">
+                                <button class="bton mt-2">
                                 Buy Now
-                            </button>
+                             </button>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -68,7 +77,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="carousel-item">
                     <div class="row d-flex align-items-center ">
                         <div class="col-md-6">
@@ -79,8 +87,8 @@
                                 <p class="pt-3">
                                     Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an
                                 </p>
-                                <button class="btn mt-2">
-                                Buy Now
+                                <button class="bton mt-2">
+                             Buy Now  
                             </button>
                             </div>
                         </div>
@@ -88,7 +96,6 @@
                             <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
-
                 </div>
                 <div class="carousel-item">
                     <div class="row row d-flex align-items-center">
@@ -100,8 +107,8 @@
                                 <p class="pt-3">
                                     Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an
                                 </p>
-                                <button class="btn mt-2">
-                               Buy Now
+                                <button class="bton mt-2">
+                                   Buy Now
                            </button>
                             </div>
                         </div>
@@ -109,15 +116,120 @@
                             <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
-
     </div>
 
+    <!--Card smartphone-->
+    <div class="container" id="mobile">
+        <div class="m1 d-flex justify-content-between">
+            <h3>
+                Smartphone
+            </h3>
+            <h6>
+                <a href="" class="next"> See all </a>
+            </h6>
+        </div>
+        <div class="car">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="phone/phone-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Redmi Note 7 Pro</h5>
+                        <p class="card-text pt-5">This is a wider card with supporting text.For more details</p>
+                    </div>
+                    <div class="card-footer">
+                        <h5>$300</h5>
+                        <button class="bton">
+                         Buy Now
+                        </button>
 
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="phone/phone-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone</h5>
+                        <p class="card-text pt-5">This is a wider card with supporting text.For more details</p>
+                    </div>
+                    <div class="card-footer">
+                        <h5>$1000</h5>
+                        <button class="bton">
+                         Buy Now
+                        </button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="phone/phone-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy S10</h5>
+                        <p class="card-text pt-5">This is a wider card with supporting text.For more details. Thank you for your visiting, you are always welcome</p>
+                    </div>
+                    <div class="card-footer">
+                        <h5>$700</h5>
+                        <button class="bton">
+                             Buy Now
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--card laptop-->
+    <div class="container" id="laptop">
+        <div class="m1 d-flex justify-content-between mt-5">
+            <h3>
+                Laptop
+            </h3>
+            <h6>
+                <a href="" class="next"> See all </a>
+            </h6>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img src="laptop/product-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Asus VivoBook S15</h5>
+                    <p class="card-text pt-5">This is a wider card with supporting text.For more details. Thank you for your visiting, you are always welcome</p>
+                </div>
+                <div class="card-footer">
+                    <h5>$500s</h5>
+                    <button class="bton">
+                         Buy Now
+                        </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="laptop/product-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lenevo Thinkpad</h5>
+                    <p class="card-text pt-5">This is a wider card with supporting text.For more details. Thank you for your visiting, you are always welcome</p>
+                </div>
+                <div class="card-footer">
+                    <h5>$700</h5>
+                    <button class="bton">
+                             Buy Now
+                     </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="laptop/product-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MI Notebook Pro</h5>
+                    <p class="card-text pt-5">This is a wider card with supporting text.For more details. Thank you for your visiting, you are always welcome</p>
+                </div>
+                <div class="card-footer">
+                    <h5>$1000</h5>
+                    <button class="bton">
+                         Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!--js bootstrap-->
