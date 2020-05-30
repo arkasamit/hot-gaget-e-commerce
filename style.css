@@ -112,22 +112,6 @@ a:hover {
     background-color: wheat;
 }
 
-.cat {
-    background-image: url(categories/perfume.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100px;
-    box-shadow: 5px 5px 10px wheat;
-    max-width: 200px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-.cat h5 {
-    margin-top: 80%;
-    margin-left: 40%;
-}
-
 .cat2 {
     background-image: url(categories/shoe.png);
     background-repeat: no-repeat;
